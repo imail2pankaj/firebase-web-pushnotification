@@ -4,7 +4,7 @@ function sendNotification($title, $body, $actionLink, $token)
 {
     $url = "https://fcm.googleapis.com/fcm/send";
 
-    $subscription_key = "key=AAAA3zQenjc:APA91bF0WsBUOmNJ_QE9f5ERx2B89fYgUfSLmNRWE0OaT40lx6VaGBGb63GhU8ilQ1BgxjiJhOgqr07Roor2-tCxuBnU0bP-RxstImDvKI9iNQ_adwFcjBI6xUqftIEcvIjaP9Ad8r2W";
+    $subscription_key = "key=AAAA3zQenjc-RxstImDvKI9iNQ_adwFcjBI6xUqftIEcvIjaP9Ad8r2W";
     $request_headers = array(
         "Authorization:" . $subscription_key,
         "Content-Type: application/json",
